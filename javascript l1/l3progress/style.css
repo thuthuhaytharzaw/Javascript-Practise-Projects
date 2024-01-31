@@ -1,0 +1,39 @@
+body{
+    background-color: #f4f4f4;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+}
+
+.progress{
+    width: 100%;
+    background-color: #bbb;
+    margin-bottom: 30px;
+}
+
+.progress-bar{
+    width: 0%;
+    height: 20px;
+    background-color: forestgreen;
+
+    position: relative;
+}
+
+.progress-bar::after{
+    content: attr(data-inc);
+
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
