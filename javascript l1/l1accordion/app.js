@@ -4,7 +4,7 @@ var getacccontent = document.querySelectorAll(".acccontent");
 console.log(getacccontent);
 
 for(var x = 0; x < getacctitle.length; x++){
-    // console.log(x);
+    console.log(x);
 
     getacctitle[x].addEventListener("click", function(e) {
         this.classList.toggle('active');
