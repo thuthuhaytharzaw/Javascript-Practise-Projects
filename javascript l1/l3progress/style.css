@@ -28,7 +28,7 @@ body{
 .progress-bar::after{
     content: attr(data-inc);
 
-    color: red;
+    color: #f4f4f4;
     position: absolute;
     right: 15px;
     top: 0;
