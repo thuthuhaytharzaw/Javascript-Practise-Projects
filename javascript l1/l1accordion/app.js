@@ -4,7 +4,7 @@ var getacccontent = document.querySelectorAll(".acccontent");
 console.log(getacccontent);
 
 for(var x = 0; x < getacctitle.length; x++){
-    console.log(x);
+    // console.log(x);
 
     getacctitle[x].addEventListener("click", function(e) {
         this.classList.toggle('active');
@@ -17,7 +17,7 @@ for(var x = 0; x < getacctitle.length; x++){
     });
 
     if(getacctitle[x].classList.contains("active")){
-        getacccontent[0].style.height = getacccontent[0].scrollHeight + 'px';
+        getacccontent[x].style.height = getacccontent[x].scrollHeight + 'px';
     }
 
 }
