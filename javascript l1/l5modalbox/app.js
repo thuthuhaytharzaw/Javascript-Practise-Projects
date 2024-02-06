@@ -1,4 +1,5 @@
 var getmodal = document.getElementById('signupmodal');
+// console.log(getmodal);
 var getbtnsignup = document.getElementById("btn-signup");
 var getbtnclose = document.querySelector(".btn-close");
 var getbtnfullscreen = document.getElementById('btn-fullscreen');
