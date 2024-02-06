@@ -20,7 +20,7 @@ body{
 .progress-bar{
     width: 0%;
     height: 20px;
-    background-color: forestgreen;
+    background-color: green;
 
     position: relative;
 }

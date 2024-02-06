@@ -1,4 +1,5 @@
 var getdownloadbtn = document.querySelector('.download-btn');
+// console.log(getdownloadbtn);
 var getprogressbar = document.querySelector('.progress-bar');
 
 getdownloadbtn.addEventListener("click",function(){
