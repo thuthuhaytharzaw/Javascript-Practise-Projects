@@ -1,7 +1,7 @@
 const getacctitle = document.getElementsByClassName("acctitle");
 console.log(getacctitle); // HTML Collection
 var getacccontent = document.querySelectorAll(".acccontent");
-console.log(getacccontent);
+// console.log(getacccontent);
 
 for(var x = 0; x < getacctitle.length; x++){
     // console.log(x);
